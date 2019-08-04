@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Message = (props) => (
-  <div>
-    {props.text}
-  </div>
-)
+class Message extends React.Component {
+  render() {
+    return (
+      <div>
+        {this.props.text}
+      </div>
+    )
+  }
+}
 
 export default Message

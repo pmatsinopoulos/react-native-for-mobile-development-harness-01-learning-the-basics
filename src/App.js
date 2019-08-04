@@ -18,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Message text="Hello World from React Native with a text property"/>
+          <Message text="Hello World from React Native with a text property (Message is a class component)"/>
         </a>
       </header>
     </div>
