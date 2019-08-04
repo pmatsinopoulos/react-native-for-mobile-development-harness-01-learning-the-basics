@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Message from './Message.jsx'
+import Welcome from './Welcome.jsx'
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Message />
         </a>
+        <Message />
+        <Welcome text="Hello World on Welcome"/>
       </header>
     </div>
   );
