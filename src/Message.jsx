@@ -1,12 +1,9 @@
 import React from 'react'
 
-class Message extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello World React Native
-      </div>
-    )
-  }
-}
+const Message = () => (
+  <div>
+    Hello React Native with a functional component
+  </div>
+)
+
 export default Message
