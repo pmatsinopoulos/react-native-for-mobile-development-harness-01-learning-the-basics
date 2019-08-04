@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Message extends React.Component {
   render() {
@@ -8,6 +9,10 @@ class Message extends React.Component {
       </div>
     )
   }
+}
+
+Message.propTypes = {
+  text: PropTypes.string.isRequired
 }
 
 export default Message
