@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Message = () => (
+const Message = (props) => (
   <div>
-    Hello React Native with a functional component
+    {props.text}
   </div>
 )
 
